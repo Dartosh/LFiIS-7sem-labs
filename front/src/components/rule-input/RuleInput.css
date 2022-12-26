@@ -1,0 +1,29 @@
+.input-fuzzies {
+    width: 100%;
+    margin-top: 2vh;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    text-align: center;
+}
+
+.input-fuzzies button {
+    margin: 2vh auto;
+}
+
+.input-fuzzies__input {
+    width: 100%;
+    margin-top: 2vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.input-fuzzies__input label {
+    width: 10%;
+}
+
+.input-fuzzies__input input {
+    width: 30%;
+}

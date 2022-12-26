@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(255, 249, 241);
+}
+
+.app {
+    width: 100%;
+    background-color: rgb(255, 249, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app textarea {
+    width: 100%;
+    height: 20vh;
+
+    border: 2px solid antiquewhite;
+    border-radius: 1vw;
+    overflow-y: auto;
+}
+
+input {
+    border: 2px solid antiquewhite;
+    border-radius: 1vw;
+}
+
+h3, h4, h1 {
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    height: 8vh;
+    background-color: antiquewhite;
+}
+
+nav {
+    height: 100%;
+    padding: 1vh;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 2vh;
+    overflow: hidden;
+    background-color: rgb(255, 249, 241);
+}
+
+.submit-button {
+    margin: 2vh auto;
+    background-color: antiquewhite;
+    border-radius: 0.5vw;
+    padding: 0.5vw 1vw;
+    border: 0px;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+}
+
+header ul li {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.224);
+}
+
+main {
+    width: 40%;
+    margin: auto;
+}
+
+.rule-container {
+    margin-top: 1vw;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: antiquewhite;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.rule {
+    width: 9.5vw;
+    text-align: center;
+    border-radius: 1vw;
+}
+
+.rule:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.224);
+}
